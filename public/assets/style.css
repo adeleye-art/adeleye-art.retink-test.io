@@ -1,3 +1,24 @@
+html,
+body,
+div,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+
+  vertical-align: baseline;
+}
+
 div#card {
   width: 15rem;
   height: 13rem;
@@ -201,4 +222,8 @@ ul {
 }
 .dei {
   width: 30px;
+}
+#section-c {
+  width: fit-content;
+  margin: auto;
 }
