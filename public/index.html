@@ -19,6 +19,23 @@
     <div id="root"></div>
     <script type="text/javascript">
       AddFillerLink("content", "navigation", "extra");
+        // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.22.0/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.22.0/firebase-analytics.js";
+  
+  const firebaseConfig = {
+    apiKey: "AIzaSyDozwoUvEkGBs6tS91Gyj_mRzV7ONon8L0",
+    authDomain: "retink-db047.firebaseapp.com",
+    projectId: "retink-db047",
+    storageBucket: "retink-db047.appspot.com",
+    messagingSenderId: "1043177691828",
+    appId: "1:1043177691828:web:476736adc106c0ffdc55e1",
+    measurementId: "G-857VGLGP1C"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
     </script>
   </body>
 </html>
