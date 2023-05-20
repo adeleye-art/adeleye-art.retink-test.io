@@ -133,7 +133,7 @@ class App extends Component {
               </div>
               <div>
                 <h4 className="text-h3">
-                  Activate your buiness groth with RetinkContent
+                  Activate your buiness groth with Retink Content
                 </h4>
                 <p className="align">
                   Save time and maintain your brand identity within your budget
@@ -143,7 +143,7 @@ class App extends Component {
                 </p>
               </div>
             </div>
-            <div id="section">
+            <div id="section-c">
               <div className="last">
                 <div className="item">
                   <div>
